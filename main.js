@@ -11,15 +11,13 @@ let mensaje =  alert('Usted tiene o esta por cumplir' + ' ' + edadActual + ' ' +
 
 //primer desafio entregable
 
-let nombre = 'Ingrese su nombre'
-let apellido = 'Ingrese su apellido'
 
 
 if (edadActual >=18){
     alert('Bienvenido')
-    prompt(nombre)
-    prompt(apellido)
-    alert(`Sr/sra usted fue registrado exitosamente`)
+    let nombre = prompt('Ingrese su nombre')
+    let apellido = prompt('Ingrese su apellido')
+    alert(`Sr/sra ${nombre +' '+ apellido} usted fue registrado exitosamente`)
 
 
 } else {
